@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  
+  <body class="bg-mobileBackground bg-no-repeat bg-cover flex justify-center items-center w-screen h-screen bg-Pale_blue lg:bg-desktopBackground  ">
+    
+    <!-- Card -->
+    <div class="max-w-96 bg-white rounded-2xl ">
+      <!-- Hero image -->
+      <div><img src="images/illustration-hero.svg" class="rounded-t-xl"/></div>
+      <!-- Text area-->
+      <div class="flex flex-col justify-center items-center">
+        <!-- Order summary -->
+        <div class="px-7  py-6 text-center">
+          <h1 class="text-2xl font-bold">Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
+            you like!
+          </p>
+        </div>
+        <!-- Price area -->
+        <div class="flex w-9/12 p-3 bg-Very_pale_blue rounded-lg">
+          <img src="images/icon-music.svg" />
+          <div class="ml-3"> <h3 class="font-bold">Annual Plan</h3>
+          <p>$59.99/year</p></div>
+         
+          <a href="#" class="ml-auto p-3 text-Bright_blue underline hover:no-underline font-bold">Change</a>
+        </div>
+        <!-- Button Area -->
+        <a href="#" class="w-9/12 text-center py-2 bg-Bright_blue text-white rounded-md mt-5 hover:cursor-pointer hover:bg-blue-600">Proceed to Payment</a>
+        <!-- Cancel Order -->
+        <div class="pb-9 pt-7 hover:cursor-pointer font-bold">Cancel Order</div>
+      </div>
+    </div>
+
+  
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">BankuBa</a>.
+    </div> -->
+  </body>
+</html>
